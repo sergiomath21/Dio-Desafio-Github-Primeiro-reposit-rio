@@ -1,0 +1,14 @@
+﻿a {
+    color: red;
+    text-decoration:none;
+    font-size:18px;
+}
+h1{
+    font-family: helvetica, sans-serif;
+}
+#segundo{
+    color: orange;
+}
+a.link{
+    color: green;
+}
