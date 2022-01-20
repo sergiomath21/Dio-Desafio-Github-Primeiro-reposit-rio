@@ -1,14 +1,42 @@
-﻿a {
-    color: red;
-    text-decoration:none;
-    font-size:18px;
+﻿body{
+    font-family: Helvetica, sans-serif;
 }
-h1{
-    font-family: helvetica, sans-serif;
+a:link, a:visited{
+    color: #ff6600;
+    text-decoration: none;
 }
-#segundo{
-    color: orange;
+a:hover{
+    text-decoration: underline;
 }
-a.link{
-    color: green;
+#wrap{
+    width: 960px;
+    margin: auto;
+    background: #e3e3e3;
+    padding: 10px 20px;
+    overflow: hidden;
+}
+header nav ul{
+    list-style: none;
+    padding-left: 0;
+}
+header nav ul li{
+    display: inline-block;
+    margin-right: 10px;
+}
+header nav ul li a{
+    font-size: 18px;
+}
+#content{
+    float: left;
+    width: 660px;
+}
+#sidebar{
+    float: right;
+    width: 300px;
+}
+#sidebar ul{
+    list-style: none;
+}
+footer{
+    clear: both;
 }
